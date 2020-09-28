@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin: 0 auto;
+	max-width: 1100px;
+	font-family: 'Spartan',sans-serif;
+  	background: url('../images/bg-pattern-top-desktop.svg') left top no-repeat,
+  	url('../images/bg-pattern-bottom-desktop.svg') right bottom no-repeat;
+  	font-size: 15px;
+}
+h1 {
+  	color: hsl(300, 43%, 22%);
+  	font-weight: 700;
+  	font-size: 2.9em;
+}
+p {
+  	color: hsl(300, 43%, 22%);
+}
+span {
+  	display: block;
+}
+.header-p {
+  	color: hsl(303, 10%, 53%);
+  	font-weight: 500;
+}
+.top{
+	display: flex;
+	justify-content: space-between;
+}
+.left-col{
+	flex-basis: 40%;
+	margin:6em 1em;
+}
+.right-col{
+	flex-basis: 42%;
+	display:flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.right{
+	background: hsl(300, 24%, 96%);
+	display:flex;
+	border-radius: 0.7em;
+	margin-top: 1.1em;
+	padding:0.9em 0.5em;
+}
+.star{
+	flex-basis: 45%;
+	text-align: center;
+	
+}
+.rating{
+	flex-basis: 55%;
+	align-content: center;
+}
+.rating p{
+	font-weight: 700;
+	margin: 0;
+}
+.right-col img{
+	margin: 0 0.2em;
+
+}
+.right-first-div{
+	position: relative;
+	left:-6em;
+}
+.right-second-div{
+	position: relative;
+	left:-3em;
+}
+/*end*/
+
+.bottom{
+	display:flex;
+	justify-content: space-between;
+}
+.bottom img {
+  	border-radius: 50%;
+  	width: 70%;
+	float:left;
+	
+}
+.bottom p {
+  	color: hsl(0, 0%, 100%);
+}
+.review {
+  	background: hsl(300, 43%, 22%);
+  	flex-basis: 28%;
+  	padding: 2.5em 1.5em 1em 1.5em;
+  	border-radius: 0.7em;
+}
+.first-row{
+	display:flex;
+	
+	margin-bottom: 2em;
+}
+.info {
+  	align-self: center;
+}
+.name {
+  	color: hsl(0, 0%, 100%);
+  	font-weight: 500;
+  	margin-bottom: 0.2em;
+}
+.position {
+  	color: hsl(333, 80%, 67%);
+  	font-weight: 300;
+}
+.second {
+  	position: relative;
+  	top: 1em;
+}
+.third {
+  	position: relative;
+  	top: 2em;
+}
+.attribution {
+  	margin-top: 5em;
+}
